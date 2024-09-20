@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        #tooltip {
+            position: absolute;
+            display: none;
+            background-color: #fff;
+            border: 1px solid #000;
+            padding: 5px;
+            pointer-events: none; /* 防止鼠标与提示框互动 */
+        }
+        svg {
+            width: 100%; /* 根据需要调整 */
+            height: auto;
+        }
+    </style>
+  
+</head>
+<body>
+    <!-- Tooltip 容器 -->
+    <div id="tooltip"></div>
+
+    <!-- SVG 容器 -->
+    <div id="svg-container"></div>
+    <script src="svg.js"></script>
+    <script src="script.js"></script> <!-- 引入新的 JavaScript 文件 -->
+</body>
+</html>
