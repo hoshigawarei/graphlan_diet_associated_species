@@ -17,6 +17,9 @@ This project implements a dynamic, interactive visualization of complex data usi
 
 Users can interact with the chart by hovering over specific areas to view detailed data on each bacterial species and its corresponding diet association, providing an intuitive and informative way to analyze the dataset.
 
+## Example Interface
+![img](img.png)
+
 --------------------------------------------------------------------------------------------------------------------------
 该项目通过前端Web（HTML，部署在GitHub）和JavaScript，实现了 graphlan_diet_associated_species 复杂图表的数据动态交互可视化。项目包含100多个细菌名称及其与不同饮食类型的关联系数，旨在为用户提供直观的数据分析体验。
 
